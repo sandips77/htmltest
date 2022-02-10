@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td, tbody,thead {
+          border: 1px solid black;
+          border-collapse: collapse;
+          background-color: cyan;
+          border-radius: 10px;
+          border-style: groove;
+          width: 52%;
+          padding: 5px;
+          border-spacing: 10px;
+        }
+        th{
+            color: brown;
+        }
+        td{
+            color: blueviolet;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <link rel="icon" href="/D.jpg">
+</head>
+<body>
+    <p id="demo">Javascript can change HTML element</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello Sandip!"'>Click Me!</button>
+   <p>This is paragraph</p>
+   <br>
+   <p>THis is also testing</p>
+   <blockquote>This is tag testing</blockquote>
+   <q>This is the new  <abbr title="World Heath Organization">WHO</abbr>  for tag q </q> <br>
+   <cite>This cite tag for learning html</cite><br>
+   <i>This is i tag for leaning html</i><br>
+   <em>This em tag for leaning html</em>
+   <bdo dir="bdo">Learning about the bdo element in html</bdo>
+   <!-- THis is anchor tag tutorial --> <br>
+   <a href="https://google.com" target="_blank" title="Go to google">Click to for more infomation <br>
+       <label for="Letssee">Lets see</label></a>     <br>
+       <table border="" >
+           <caption>This is caption of table</caption>
+           <thead>
+           <tr>
+               <th>Name</th>
+               <th>Age</th>
+               <th>Location</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sandip Shinde</td>
+                <td>32</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>Abhijeet Dalal</td>
+                <td>31</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>Shirish Bobde</td>
+                <td>31</td>
+                <td>Amravati</td>
+            </tr>
+        </tbody>
+       </table>
+       <ul>
+           <li>Tea</li>
+           <li>Milk
+           </li>
+           <li>Coffee</li>
+       </ul>
+       <ol>
+           <li>Tea</li>
+           <li>Milk
+
+           </li>
+           <li>Coffee</li>
+
+       </ol>
+       <dl>
+           <dt>Milk</dt>
+           <dd>- Cow milk only</dd>
+       </dl>
+       <button type="button" onclick="document.getElementById('demo').innerHTML=Date()"> Click me to display date and time</button>
+       <br>
+       <button type="button">Test</button>
+       <script>
+           function myfunction(){
+               document.getElementById('demo1').innerHTML="Paragraph Changed"
+           }
+       </script>
+       <p id="demo1">A Paragraph</p>
+       <button type="button" onclick="myfunction()">Try it</button> <br>
+       <button type="button" >Check last name</button>
+       <p id="lastname">Sandip</p>
+       <script src="name.js"></script>
+       
+    </body>
+</body>
+</html>
